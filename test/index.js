@@ -7,7 +7,7 @@ it('test1', (done) => {
     .get('/')
     .expect(200)
     .then(function(data){
-      assert(data.res.text === 'Hello World Handson 0914');
+      assert(data.res.text === 'Hello World Handson 0914-2');
       done();
       process.exit(0);
     }).catch(function(err){

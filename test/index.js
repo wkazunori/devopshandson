@@ -9,6 +9,7 @@ it('test1', (done) => {
     .then(function(data){
       assert(data.res.text === 'Hello World Handson 0914');
       done();
+      process.exit(0);
     }).catch(function(err){
       console.log(err);
       process.exit(1);

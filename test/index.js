@@ -11,5 +11,6 @@ it('test1', (done) => {
       done();
     }).catch(function(err){
       console.log(err);
+      process.exit(1);
     });
 });
